@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:visibility="visible"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:textColor="#0C27BA" />
+
+    <TextView
+        android:id="@+id/news_content"
+        android:layout_width="match_parent"
+        android:layout_height="128dp" />
+
+    <TextView
+        android:id="@+id/news_author"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="right" />
+</LinearLayout>
